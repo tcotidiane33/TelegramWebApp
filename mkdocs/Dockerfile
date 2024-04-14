@@ -1,5 +1,5 @@
 # Dockerfile for mkdocs
-FROM python:3.11-slim
+FROM python:3.13.0a6-slim
 
 # Install mkdocs and other necessary plugins
 RUN pip install mkdocs-material~=9.4 mkdocs-video~=1.5
